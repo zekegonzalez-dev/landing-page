@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   margin: 0;
@@ -149,4 +149,62 @@ button{
     color:#1F2937;
     justify-content: flex-end;
     font-weight:900;
+}
+
+
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.cta-container{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #3882F6;
+    padding: 50px 80px 50px 80px;
+}
+
+.cta-text{
+    flex:4;
+    color:white;
+    font-size: 18px;
+}
+
+.cta-text h3, h4{
+    margin:0;
+}
+.cta-text h4{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cta-button{
+    flex:1;
+    align-items: flex-end;
+}
+
+.cta-button button{
+    outline: 1px solid white;
+    text-align: center;
+     border-radius: 10px; 
+     width: 150px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color:white;
 }
